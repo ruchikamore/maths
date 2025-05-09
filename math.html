@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Operators</h1>
+    <script>
+        //arthematic operators
+        //addition
+        let a=5;
+        let b=6;
+        console.log(a+b)
+
+        const strNum = "42";
+        console.log(Number(strNum)); // 42
+
+        const num = 5.6789;
+        console.log(num.toFixed(2)); // "5.68"
+
+        const floatString = "3.14";
+        console.log(parseFloat(floatString)); // 3.14
+
+        const intString = "42";
+        console.log(parseInt(intString)); // 42
+
+        console.log(Math.round(4.5)); // 5
+        console.log(Math.round(4.4)); // 4
+
+        console.log(Math.random());
+
+        console.log(Math.max(1, 5, 10, 20)); // 20
+        console.log(Math.min(1, 5, 10, 20)); // 1
+
+        console.log(Math.sqrt(16)); // 4
+
+        const now = new Date();
+        console.log(now);
+
+        const today = new Date();
+        console.log(today.getFullYear()); // e.g., 2025
+        console.log(today.getMonth()); // 0-based month index
+        console.log(today.getDate());
+
+        const date1 = new Date("2025-01-01");
+        const date2 = new Date("2025-01-02");
+        console.log(date1 < date2); // true
+
+        const userName = prompt("Enter your name:");
+        console.log(Hello, userName);
+
+
+
+    </script>
+</body>
+</html>
